@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Shirt",
+            "author": "15.99",
+            "category" : "Clothes"
+        },
+        {
+            "id": 2,
+            "name": "Jeans",
+            "author": "19.99",
+            "category" : "Clothes"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productes</title>
+</head>
+<body>
+    <header>Gestió de Productes</header>
+    <main>
+        <section>
+            <h2>Lllista de productes</h2>
+            <ul class="products-list">
+                <% data.products.forEach(products => { %>
+                    <li class="book-item">
+                        <strong><%= products.name %></strong>
+                        <span>Categoria: <%= products.category %></span>
+                        <span>Preu: €<%= products.price %></span>
+                    </li>
+                <% }) %>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
